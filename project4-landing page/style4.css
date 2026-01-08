@@ -1,0 +1,123 @@
+.html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img{
+    background-image: url(../project-photos/developer.png);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.heading1{
+position:absolute;
+top: 10%;
+left: 21%;
+color: white;
+font-size: 2.4rem;
+}
+.span1{
+    font-size: 1.8rem;
+}
+.FSD{
+    letter-spacing: 3px; 
+}
+
+
+
+.heading2 p{
+    color: white;
+   justify-content: center;
+   text-align: center;
+   text-align: center;
+   background: black;
+   padding: 5rem 3rem;
+   margin-top: 0px;
+   font-size: 3rem;
+}
+.span2{
+   font-size: 5rem;
+}
+
+                                    /* continer section */
+
+.image1{
+    height:400px;
+    float: left;
+    /* border: 2px solid red; */
+    width: 25%;
+    box-shadow: 2px 2px 6px gray;
+    border-radius: 7px;
+}
+.image2{
+    height:400px;
+    float: left;
+    /* border: 2px solid red; */
+    width: 25%;
+    box-shadow: 2px 2px 6px gray;
+    border-radius: 7px;
+}
+.image3{
+    height:400px;
+    float: left;
+    /* border: 2px solid red; */
+    width: 25%;
+    box-shadow: 2px 2px 6px gray;
+    border-radius: 7px;
+}
+img{
+    width: 100%;
+}
+.images p{
+    text-align: justify;
+   padding-left: 1rem;
+   padding-right: 1rem;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.images h2{
+    padding-left: 1rem;
+}
+
+                                    /* Me section */
+.contact-me{
+    /* border: 2px solid red; */
+    float: left;
+    width: 50%;
+    padding: 2rem 2rem;
+    background: #515603;
+    text-align: justify;
+    color: #fff;
+}
+.about-me{
+    /* border: 2px solid red; */
+    float: left;
+    width:50%;
+    padding: 2rem 2rem;
+    background: #722300;
+    color: #fff;
+
+
+}
+.me-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+
+                                /* footer section */
+    .footer{
+        /* border: 2px solid red; */
+        text-align: center;
+        background: #000;
+        color: #fff;
+        padding: 2rem 3rem;
+        letter-spacing: 3px;
+        font-size: 1.3rem;
+    }
