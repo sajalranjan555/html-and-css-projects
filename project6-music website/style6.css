@@ -1,0 +1,215 @@
+.body{
+    scroll-behavior: smooth;
+}
+
+.nav-bar{
+    background: rgb(3, 3, 144);
+    position: fixed;
+    z-index: 999;
+    opacity: 1;
+    width: 100%;
+    margin-left: -7px;
+    margin-top: -7px;
+}
+.item1{
+    float: left;
+    margin-left: 12rem;
+    color: #fff;
+}
+.item2{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    padding-right: 1rem;
+    color: #fff;
+    list-style: none;
+font-size: 1.4rem;
+}
+.item2 li{
+ margin-right: 3rem;
+ margin-top: 0.6rem;
+}
+                                   /* hero section */
+.hero-image img{
+    width: 100%;
+}
+.body{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%,-50%);
+
+}
+.body h2{
+    font-size: 5rem;
+    text-align: center;
+}
+.para1{
+    font-size: 2rem;
+    text-align: center;
+
+}
+.para2{
+    font-size: 16px;
+    text-align: center;
+}
+                                  /* music section */
+.music-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+ .music-section{
+    /* border: 2px solid red; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 806px;
+    width: 100%;
+    background: rgba(40, 17, 84, 1);
+    color: #fff;
+    padding-top: 4rem;
+    margin-top: -1rem;
+ }
+ .music-heading i{
+    margin-right: 1rem;
+    font-size: 32px;
+ }
+ .music-heading h2{
+    font-size: 25px;
+ }
+ .music-para1{
+    font-size: 1.5rem;
+   padding-left: 10rem;
+   padding-right: 10rem;
+ }
+ .music-para2{
+    /* border: 2px solid red; */
+    padding: 1rem 1rem;
+   width: 10%;
+   margin: 0 auto;
+   background: red;
+   margin-top: 2rem;
+ }
+ .music-para3{
+    margin-top: 2.5rem;
+ }
+ .music-contents h2{
+    font-size: 1.5rem;
+ }
+                                        /* tab section */
+ .tab-section{
+    margin-top: 23rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid red; */
+ }
+ .bigpara{
+    font-size: 1.5rem;
+    margin: 0px 5rem;
+    margin-top: 4rem;
+ }
+ .button{
+    /* border: 2px solid red; */
+    width: 5%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 0.6rem 16px;
+    background: rgba(40, 17, 84, 1);
+    color: #fff;
+ }
+ .tab-img{
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+ display: block;
+ margin-top: 3rem;
+ width: 1024px;
+ }
+                                            /* video section */
+ .video-img{
+    margin-top: 3rem;
+    width: 100%;
+ }
+ .text-sec{
+    text-align: center;
+position: absolute;
+top: 475%;
+color: #fff;
+ }
+ .text-sec h2{
+    font-size: 2rem;
+ }
+ .text-sec p{
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 1rem 10rem;
+ }
+                                     /* gift card section */
+.gift-card{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 4rem;
+}
+.text{
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.lorem1{
+    text-align: justify;
+    font-size: 1.5rem;
+}
+.lorem2{
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+.line{
+    height: 0.1rem;
+    width: 100%;
+   background: 1px rgb(158, 158, 158,1);
+}
+.buttton{
+    /* border: 2px solid red; */
+    width: 10%;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    background: rgba(55, 0, 142, 1);
+    color: #fff;
+}
+                                  /* footer making */
+    .footer{
+        /* border: 2px solid red; */
+        background: rgba(27, 0, 88, 1);
+        color: #fff;
+        padding: 5rem 5rem;
+        margin-top: 6rem;
+    }
+
+    .footer-border{
+        height: 0.1rem;
+        width: 150%;
+      background: 1px rgba(255, 255, 255, 1);
+      margin-top: -1rem;
+    }
+   .li li{
+    display: flex;
+    flex-direction: column;
+    margin-left: -2.5rem;
+   }
+   .footer-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   }
+
+                   /* hover things */
+nav ul li:hover{
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
