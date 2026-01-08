@@ -1,0 +1,44 @@
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.inside-box{
+    max-width: 600px;
+    background-color: white;
+    margin: 0 auto;
+   margin-top: 50px;
+   box-shadow: 4px 3px 5px rgb(1, 1, 1,0.1);
+    border-radius: 10px
+}
+.inside-box h2{
+    padding-top: 5rem;
+    margin-left: 2rem;
+}
+
+.form-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem;
+}
+.form :placeholder-shown{
+    padding:15px 15px;
+}
+.form select{
+    padding:15px 15px;
+}
+.form #date{
+    padding:15px 15px;
+margin-top: 2rem;
+}
+.button{
+text-align: end;
+ margin-top: 13rem;
+ padding: 5px 10px;
+ border: transparent solid 2px;
+}
