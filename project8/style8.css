@@ -1,0 +1,90 @@
+nav ul li{
+    list-style: none;
+    text-align: justify;
+    margin-top: 0 auto;
+    border: 1px solid rgb(0, 0, 0,1);
+     padding: 1rem 1rem;
+    color: rgba(0, 0, 0, 1);
+     font-size: 16px;
+    
+}
+nav{
+    width: 193px;
+    height: 2398px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    background: rgba(248, 248, 248, 1);
+    position: fixed;
+}
+ul{
+    margin-left: -2.5rem;
+    width: 100%;
+   
+}
+nav h1{
+    text-align: center;
+}
+nav ul li:hover{
+    background: rgb(196, 191, 191);
+}
+
+                            /* body making */
+                            /* section1 */
+#Introduction{
+    width: 1095px;
+    height: 192px;
+   float: right;
+  top: 20px;
+  position: absolute;
+  left: 280px;
+}
+#Introduction li{
+    margin-bottom: 1rem;
+    margin-left: 15px;
+}
+#Introduction p{
+    margin-bottom: 1.4rem;
+} 
+                           /* section2 */
+#What_You_Should_Already_Know{
+position: absolute;
+width: 1095px;
+height: 192rem;
+top: 400px;
+left:280px;
+}
+#What_You_Should_Already_Know li{
+    margin-bottom: 1rem;
+   margin-left: 25px;
+}
+                    /* section3 */
+  #JavaScript_and_Java{
+position: absolute;
+top: 700px;
+width: 1095px;
+left: 280px;
+}        
+            /* section4 */
+#Hello_World{
+    position: absolute;
+    top: 1070px;
+    left: 280px;
+}
+.para{
+    /* border: 2px solid red; */
+    width: 1000px;
+    background: rgba(235, 235, 235, 1);
+    margin-left: 2rem;
+    padding: 1rem 1rem;
+}
+                               /* section5 */
+#Variables{
+    width: 1000px;
+    position: absolute;
+    top: 1400px;
+    left: 280px;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
